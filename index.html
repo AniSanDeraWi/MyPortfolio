@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="png" href="img/imp.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="cont">
+        <header>
+                <div><p class="port lnga">Portfolio</p></div>
+                <!-- <li class="active home"><a href="../index.html"><i class="fa fa-home"></i><br><p class="ps ps1" id="p active">Home</p></a></li> -->
+                <!-- <li><a href="../index2.html"><i class="fa fa-picture-o"></i><p class="ps ps2" id="p">My Works</p></a></li> -->
+                <div class="gear fat"><a><i class="fa fa-gear"></i><p class="ps ps3" id="p">Settings</p></a></div>
+        </header>
+        <main class="transition-fade">
+            <div class="settings-div">
+                <div>
+                    <ul>
+                        <li class="krest fat"><a><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="langlist">
+                        <li class="eng langue" data-lang="eng"></li>
+                        <li class="ua langue" data-lang="ua"></li>
+                        <li class="ned langue" data-lang="ned"></li>
+                    </ul>
+                    <ul class="theme-list">
+                        <li class="theme-item">
+                            <button data-setting-value="light" class="light theme-button" type="button">
+                                <img class="lightpic" src="../img/hex.webp">
+                                <span>Light</span>
+                            </button>
+                        </li>
+                        <li class="theme-item">
+                            <button data-setting-value="dark" class="dark theme-button active" type="button">
+                                <img class="darkpic" src="../img/hex.webp">
+                                <span>Dark</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+               <div class="pidd visually-hidden">
+                     <h1 class="inf"></h1>
+                     <button class="closed but">Close</button>
+                </div>
+                <div class="MainElem">
+                    <div class="MainElem-1">
+                        <div class="ava"></div>
+                    </div>
+                    <div class="MainElem-2">
+                        <h1 class="lngaa">About me</h1><br>
+                        <p class="par para lng">My name is Artem Shunda, I am 15 years old, a novice web developer from Ukraine.<br> I have been studying development at <span class="socs par pid" data-info="The School of Computer Skills is a school in Ukraine for children 8-14 years old, where they study front-end development">SoCS</span> </p> <p class="par par3 lng">since 2019 and have already made 5 large projects and more than 100 mini-projects. I know 4 languages namely<br>Russian, Ukrainian, English and Dutch.</p>
+                    </div>
+                    <div class="MainElem-3">
+                        <div class="elem elem-1"><img class="mainPicture" src="../img/HTML.png"><h1 class="skilh1"></h1></div>
+                        <div class="elem elem-2"><img class="mainPicture1" src="../img/CSS.png"><h1 class="skilh2"></h1></div>
+                        <div class="elem elem-3"><img class="mainPicture2" src="../img/JS.png"><h1 class="skilh3"></h1></div>
+                        <div class="elem elem-4"><img class="mainPicture" src="../img/Gimp.png"><h1 class="skilh4"></h1></div>
+                        <div class="elem elemver2"><img class="mainPicture git" src="../img/git.png"><h1 class="skilh4"></h1></div>
+                        <div class="elem elemver2"><img class="mainPicture vs" src="../img/vscode.png"><h1 class="skilh4"></h1></div>
+                        <div class="elem elemver2"><img class="mainPicture fig" src="../img/figma.webp"><h1 class="skilh4"></h1></div>
+                    </div>
+                </div>
+                <aside class="cookies-agreement">
+                    <img class="cook" src="../img/cookie.png"><p class="par par2">While you are on our site, we use your cookies. We really hope you don't mind.</p>
+                    <button class="button but" type="button">Оk</button>
+                  </aside>
+                <div class="main">
+                    <div class="MainElement">
+                        <div class="cardview">
+                             <div class="sort" data-setview="row">
+                                <svg width="100%" height="20" viewBox="0 0 30 13" fill="white">
+                                    <rect x="8" y="8" width="22" height="5" rx="1"/>
+                                    <rect y="8" width="5" height="5" rx="1"/>
+                                    <rect x="8" width="22" height="5" rx="1"/>
+                                    <rect width="5" height="5" rx="1"/>
+                                </svg>
+                            </div>
+                            <div class="sort sort2" data-setview="standart">
+                                <svg width="100%" height="20" viewBox="0 0 21 13" fill="white">
+                                    <rect x="16" y="8" width="5" height="5" rx="1"/>
+                                    <rect x="8" y="8" width="5" height="5" rx="1"/>
+                                    <rect y="8" width="5" height="5" rx="1"/>
+                                    <rect x="16" width="5" height="5" rx="1"/>
+                                    <rect x="8" width="5" height="5" rx="1"/>
+                                    <rect width="5" height="5" rx="1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="img-container MainImg1">
+                            <div class="img">
+                                <img class="imgg" src="../img/photo1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="img-container MainImg2">
+                            <div class="img">
+                                <img class="imgg" src="../img/photo2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="img-container MainImg3">
+                            <div class="img">
+                                <img class="imgg" src="../img/photo3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="img-container MainImg4">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div>
+                        <div class="img-container MainImg5">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div>
+                        <div class="img-container MainImg6">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div>
+                        <!-- <div class="img-container MainImg7">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div>
+                        <div class="img-container MainImg8">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div>
+                        <div class="img-container MainImg9">
+                            <div class="img geen">
+                                here could be your website
+                            </div>
+                        </div> -->
+                        <div class="pop-up">
+                            <img src="../img/photo1.png" alt="photo1">
+                        </div>
+                    </div>
+        </main>
+        <button class="up-button" type="button">
+                     ↑
+        </button>
+        <footer>
+            <h1>@ArtemShunda2023</h1>
+            <div class="Contact c1">
+                <a class="con" href="https://t.me/AniSanDeraWi"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            </div>
+            <div class="Contact c2">
+                <a class="con" href="https://www.instagram.com/invites/contact/?i=15gaxz9z8towd&utm_content=b1tsz5o"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+            <div class="Contact c3" title="+31643204966">
+                <a class="con"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            </div>
+            <div class="Contact c4">
+                <a class="con" href="https:/wa.me/380973682886"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+        </footer>
+    </div>
+        <script src="JS/script.js"></script>
+</body>
+</html>
